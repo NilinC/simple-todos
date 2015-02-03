@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d664bbc6-da5a-480f-8f62-5cf4139313a0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.meteor/.finished-upgraders" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.meteor/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.meteor/.id" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.meteor/packages" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.meteor/platforms" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.meteor/release" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-todos.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-todos.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/simple-todos.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/simple-todos.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.meteor/versions" />
-    </list>
+    <list default="true" id="d664bbc6-da5a-480f-8f62-5cf4139313a0" name="Default" comment="" />
     <ignored path="simple-todos.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
