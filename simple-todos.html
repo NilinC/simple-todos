@@ -1,0 +1,56 @@
+<head>
+    <title>Todo List</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <div class="login-button">
+                    {{> loginButtons}}
+                </div>
+                <!--end div login-button-->
+
+                <h1>Todo List ({{incompleteCount}})</h1>
+
+                <label class="hide-completed">
+                    <input type="checkbox" checked="{{hideCompleted}}" />
+                    Hide Completed Tasks
+                </label>
+
+                {{#if currentUser}}
+                <form class="new-task">
+                    <input class="form-control" type="text" name="text" placeholder="Type to add new tasks" />
+                </form>
+                {{/if}}
+
+                <ul>
+                    {{#each tasks}}
+                    {{> task}}
+                    {{/each}}
+                </ul>
+            </div>
+            <!--end div col-md-8-->
+            <div class="col-md-2"></div>
+        </div>
+        <!--end div row -->
+    </div>
+    <!--end div container-fluid-->
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</body>
+
+<template name="task">
+    <li class="{{#if checked}}checked{{/if}}">
+        <button class="delete">&times;</button>
+
+        <input type="checkbox" checked="{{checked}}" class="toggle-checked" />
+
+        <span class="text"><strong>{{username}}</strong> - {{text}}</span>
+
+        <button class="counter">+ {{counter}}</button>
+    </li>
+</template>

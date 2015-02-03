@@ -1,0 +1,47 @@
+/* CSS declarations go here */
+body {
+    font-family: sans-serif;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    padding: 0;
+    margin: 0;
+
+    font-size: 14px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.col-md-2 {
+    background-color: rgb(132,204,255);
+    height: 1000px;
+}
+
+.login-button {
+    float: right;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+
+.delete {
+    float: right;
+    font-weight: bold;
+    background: none;
+    font-size: 1em;
+    border: none;
+    position: relative;
+}
+
+.counter{
+    float: right;
+}
